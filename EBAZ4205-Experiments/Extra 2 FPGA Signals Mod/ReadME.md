@@ -31,8 +31,9 @@ GND X3 pin 7 --> JST pin 2 --> 0v
 N\C X3 pin 6 --> JST pin 3 --> U31-N16
 N\C X3 pin 5 --> JST pin 4 --> U31-L14
 ```
-I used a readymade cable from AliExpress to plug into the new X3 JST socket, and and in a XDC file, added
-in the following lines to define the new signals available at the X3 JST 1.25 Connector
+I used a readymade cable from AliExpress to plug into the new X3 JST socket.
+
+In a XDC file, add in the following lines to define the new signals available at the X3 JST 1.25 Connector
 ```
 set_property PACKAGE_PIN N16 [get_ports X3_YELLOW]
 set_property PACKAGE_PIN L14 [get_ports X3_GREEN]
