@@ -10,10 +10,10 @@ If U30 is populated (on the rear of the PCB), its output needs to be disconnecte
 to the reset supervisor output. This can be done by removing R1481, and using some 0.3mm insulated wire, connect the
 now free upper pad (that goes to FPGA U31.W20) to the junction of R1950, R1401, R2392.
 
-<img width="2040" height="2645" alt="U30Patch" src="https://github.com/user-attachments/assets/70fc6181-34f1-40f9-ab7a-8ae59d020bf0" />
+<img width="1289" height="833" alt="Wire" src="https://github.com/user-attachments/assets/aac16332-650d-4aba-b7ae-d0e691298311" />
 
 
 The U65 reset supervisor (U65) just requires a N\O pushbutton to be connected between GND and U65 MR (pin 1).
 A suitable large GND is present nearby where large decooupling capacitors sit.
 
-<img width="1595" height="1820" alt="ResetButton" src="https://github.com/user-attachments/assets/035ecdb9-b052-45e3-bffb-50ab1e75b23f" />
+<img width="1245" height="1330" alt="Button" src="https://github.com/user-attachments/assets/d5bd5438-7d19-485c-bd3a-1f0d516404ba" />
