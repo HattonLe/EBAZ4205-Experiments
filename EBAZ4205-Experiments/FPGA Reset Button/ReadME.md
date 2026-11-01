@@ -19,6 +19,8 @@ The other side of the button is soldered to U23 pin 1, the latter is routed to t
 
 <img width="1245" height="1330" alt="Button" src="https://github.com/user-attachments/assets/d5bd5438-7d19-485c-bd3a-1f0d516404ba" />
 
+In a XDC file, add in the following lines to define the new reset button signal
+
 ```
 # FPGA Reset signal Button
 set_property PACKAGE_PIN W20 [get_ports Reset]
