@@ -18,3 +18,10 @@ At U23, pins 2 and 4 are tied to GND via R2471. We can use this large pad to con
 The other side of the button is soldered to U23 pin 1, the latter is routed to the rear of the PCB to R2468.
 
 <img width="1245" height="1330" alt="Button" src="https://github.com/user-attachments/assets/d5bd5438-7d19-485c-bd3a-1f0d516404ba" />
+
+'''
+# FPGA Reset signal Button
+set_property PACKAGE_PIN W20 [get_ports Reset]
+set_property PULLUP TRUE [get_ports Reset]
+set_property IOSTANDARD LVCMOS33 [get_ports Reset]
+'''
