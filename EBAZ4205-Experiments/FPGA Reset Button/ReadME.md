@@ -23,7 +23,7 @@ In a XDC file, add in the following lines to define the new reset button signal
 
 ```
 # FPGA Reset signal Button
-set_property PACKAGE_PIN W20 [get_ports Reset]
-set_property PULLUP TRUE [get_ports Reset]
-set_property IOSTANDARD LVCMOS33 [get_ports Reset]
+set_property PACKAGE_PIN W20 [get_ports nReset]
+set_property PULLUP TRUE [get_ports nReset]
+set_property IOSTANDARD LVCMOS33 [get_ports nReset]
 ```
